@@ -28,7 +28,7 @@ def do_prompt
     store["current_answers"] ||= []
     store["current_answers"] << answers
   end
-  p store.inspect
+
 end
 
 def do_report
